@@ -1,5 +1,34 @@
-# Universal Project Scaffold
-A scaffold for deploying dockerized flask applications.
+# Code-Detectors Batch B : Essay Generator
+### About the Team
+Lauren:
+Project Manager, Back-end developer, Pre-processing team
+Evelyn: 
+Front-end developer
+Pooja: 
+Back-end developer, Front-end developer, Project Manager
+Arya:
+Pre-Processing team
+Karishma: 
+Front-end developer
+
+### How to Use
+To properly use our essay generator you have to first select if you want a claim, rebuttal, evidence, conclusion, or counterclaim. Then, you can select how many of those statements you desire. Next, you enter a statement of your choosing and click on the generate button to generate your prompt. After you’ve completed those steps, your essay should be printed below the generate button. 
+
+### Technical Stack
+Html
+CSS
+Bootstrap
+Python3
+Flask
+
+### Dataset
+We used a dataset called Evaluating Student Writing: Analyze argumentative writing elements from students grade 6-12 from Kaggle. This dataset’s test set has approximately 10K documents. It gives an output of a few lines of text that is generated based on the statement type and prompt given. We are giving the user the choice of what type of statement they want to generate and how many of those statements they would like.  
+
+### Type of Model
+We used the GPT-2 NEO and AI textgen models. These models generate text quickly and have a  better memory efficiency. With transformers, aitextgen preserves compatibility with the base package and allows you to use it for different tasks. With pytorch-lightning, aitextgen trains models not just on CPUs and GPUs, but also multiple GPUs and (eventually) TPUs. The input dataset is its own object, allowing you to not only easily encode megabytes of data in seconds, cache, and compress it on a local computer before transporting to a remote server, but you are able to merge datasets without biasing the resulting dataset, or cross-train on multiple datasets to create blended output.
+
+### Libraries Used
+We used several libraries for our project. To read and clean our data set, we used the Pandas library. Then, to connect the back-end and front-end of the project, we used the Flask library. We also used AI text gen to generate the text and OS library to work with the CUDA. These were the major libraries that we worked around.. 
 
 If you have any questions, feel free to open an issue on [Github](https://github.com/organization-x/omni/issues).
 
