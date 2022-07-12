@@ -1,14 +1,14 @@
 # Code-Detectors Batch B : Essay Generator
 ### About the Team
-Lauren:
+#### Lauren:
 Project Manager, Back-end developer, Pre-processing team
-Evelyn: 
+#### Evelyn: 
 Front-end developer
-Pooja: 
+#### Pooja: 
 Back-end developer, Front-end developer, Project Manager
-Arya:
+#### Arya:
 Pre-Processing team
-Karishma: 
+#### Karishma: 
 Front-end developer
 
 ### How to Use
